@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #b0c2b8;
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.shadow{
+    height: 15px;
+    background:
+    linear-gradient(180deg, #505a5f, transparent 50%) bottom;
+    background-size: 100% 15px;
+   
+}
+
+header .container{
+    font-family:roboto, sans-serif;
+    font-size: 15px;
+    max-width: 1440px;
+    
+}
+
+.navbar img{
+    width: 90px;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-item2 a::before{
+    content: '|';
+    margin-right: 35px;
+    margin-left: 25px;
+}
+section.img{
+    width:550px;
+    height: 550px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.img img{
+    
+    width: 300px;
+}
+section a{
+    margin-top: 30px;
+    text-align: center;
+    font-size:16px;
+    color:#263238;
+}
+section a:hover{
+    text-decoration: none;
+}
+
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1040px;
+    background-color: white; 
+    border-radius: 57px;
+}
+
+section .container{
+    display: flex;
+    font-family: roboto, sans-serif;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+section h1 {
+    color:#263238;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+p{
+    margin-bottom: 5px;
+    color: #263238;
+    font-size: 12px;
+}
+
+/* "aplicar efeito de on click nos botões" */
+button.cliente{
+    color: white;
+    background-color: #263238;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    margin-right:-2px;
+    width: 150px;
+    height:40px;
+}
+button.empresa{
+    color: #263238;
+    background-color: rgba(205, 216, 187, 0.6);
+    border: none;
+    margin-left:-2px;
+    border-radius:0 10px 10px 0;
+    width: 150px;
+    height:40px;
+}
+section form .nome {
+    margin-top: 30px;
+ }
+section form {
+   display: flex;
+   flex-direction: column;
+}
+
+form input {
+    width: 300px;
+    height:40px;
+    border-radius: 10px;
+    background-color: rgba(205, 216, 187, 0.6);
+    border:none;
+    padding: 15px;
+}
+form input:first-child{
+    margin-bottom: 80px 0;
+}
+input{
+    margin: 10px 0;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(38, 50, 56, 0.35);
+ }
+
+form input:focus{
+    outline: none;
+    border-radius:10px;border:1px solid rgba(38, 50, 56, 0.45);
+}
+
+form button {
+    align-self: center;
+    background-color:  #263238;
+    color:white;
+    border:none;
+    border-radius:10px;
+    width: 300px;
+    height:40px;
+    margin-top: 20px;
+    
+}
+form button:focus{
+    outline: none;
+    border-radius:10px;border:1px solid #547a27;
+}
+
+
+
+

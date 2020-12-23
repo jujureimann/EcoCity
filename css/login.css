@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #838789;
+    height: 100vh;
+}
+
+.navbar {
+    height: 100px;
+}
+
+.shadow{
+    height: 15px;
+    background:
+    linear-gradient(180deg, #505a5f, transparent 50%) bottom;
+    background-size: 100% 15px;
+}
+
+header .container{
+    font-family:roboto, sans-serif;
+    font-size: 15px;
+    max-width: 1440px;
+}
+
+.navbar img{
+    width: 90px;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-item2 a::before{
+    content: '|';
+    margin-right: 35px;
+    margin-left: 25px;
+}
+
+img.login_image {
+    height: 511px;
+}
+
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    max-width: 1040px;
+    background-color: white; 
+    border-radius: 57px;
+}
+
+section .container{
+    display: flex;
+    font-family: roboto, sans-serif;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+section h1 {
+    color:#7CB13E;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+section form {
+   display: flex;
+   flex-direction: column;
+}
+
+form input {
+    width: 365px;
+    height:50px;
+    border-radius: 10px;
+    background-color: rgba(205, 216, 187, 0.6);
+    border:none;
+    padding: 15px;
+}
+
+input.email{
+    margin: 40px 0;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(38, 50, 56, 0.35);
+ }
+
+form input:focus{
+    outline: none;
+    border-radius:10px;border:1px solid rgba(38, 50, 56, 0.45);
+}
+
+form p{
+    color: #263238;
+    margin: 30px 0 50px;
+    text-align: center;
+}
+
+form p a{
+    padding: 15px;     
+    color: #ec3d17;
+    font-weight: bold;
+    margin: 30px 0 50px;
+    text-align: center;
+}
+
+form p a:hover{
+    /* color: #a32a0f; */
+    color: #ff6744;
+    text-decoration: none;
+}
+
+form button {
+    align-self: center;
+    background-color:#7CB13E;
+    color:white;
+    border:none;
+    border-radius:10px;
+    height: 50px;
+    width: 290px;
+    
+}
+
+form button:focus{
+    outline: none;
+    border-radius:10px;border:1px solid #547a27;
+}
+
+footer{
+    height: 30px;
+    width:100%;
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    padding: 5px 420px;
+    height: 35px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer  p{
+    text-align: center;
+    color:#505a5f
+}
+
+footer  i{
+    text-align: center;
+    margin-left: 25px;;
+    font-size: 18px;
+    color:#263238;
+}
+.fa-envelope:before {
+    margin-right: 6px;
+}
+.fa-instagram-square:before {
+    margin-right: 6px;
+}
+.fa-twitter-square:before {
+    margin-right: 6px;
+}
+.fa-facebook:before {
+    margin-right: 6px;
+}
+
+
+
+
+
+
