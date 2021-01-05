@@ -79,6 +79,9 @@ section {
     align-items: center;
     flex-direction: column;
 }
+.img-phone{
+    display: none
+}
 
 section .form{
     display: flex;
@@ -152,7 +155,7 @@ form input:focus{
 }
 section p{
     margin-bottom: 2px;
-    font-size:.8rem;
+    font-size:.7rem;
 }
 
 form button {
@@ -211,33 +214,56 @@ footer  i{
 
 @media (max-width: 700px) {
     section img.upload_image {
-        max-height: 90%;
+        max-height: 100%;
      }
     
-     section form {
-        width:80%;
-     } 
      form button {
-        width: 100%;
+        
+        width: 200px;
     }
 
 }
 
-@media (max-width: 576px) { 
-     {
-        max-height: 20%;
-     }
-}
+
 
 @media (max-width: 576px) { 
-    section img.upload_image {
+
+    main .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 700px;
+        height: 450px;
+        max-width: 90%;
+        background-color: white;
+        border-radius: 35px;
+    }
+
+    h1 {
         display: none;
+    }
+    
+
+    .img-phone{
+        display: flex;
+        float: right;
+        width:50%;
+        margin-bottom: 10px;
+    }
+    .img-phone h1 {
+        display: flex;
+    }
+        .form{
+            /* display: flex; */
+            flex-direction:row;
+         width: 75%;
      }
      section.img {
         display: none;
     }
     section{
-        width: 80%;
+        width: 100%;
     }
       section form {
         width:100%;
@@ -245,12 +271,14 @@ footer  i{
      form button {
         width: 100%;
     } 
-    
 
-/*  */
-
-
+  
+footer{
+    display: none;
 }
+
+
+} 
 
 
 
