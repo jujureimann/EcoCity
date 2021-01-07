@@ -8,37 +8,6 @@ body{
     height: 100vh;
 }
 
-.navbar {
-    height: 70px;
-   
-}
-
-.shadow{
-    height: 15px;
-    background:
-    linear-gradient(180deg, #505a5f, transparent 50%) bottom;
-    background-size: 100% 15px;
-}
-
-header .container{
-    font-family:roboto, sans-serif;
-    font-size: 15px;
-    max-width: 1360px;
-}
-
-.navbar img{
-    width: 70px;
-}
-
-.nav-item{
-    margin-left: 10px;
-}
-
-.nav-item2 a::before{
-    content: '|';
-    margin-right: 35px;
-    margin-left: 25px;
-}
 main {
     display: flex;
     justify-content: center;
@@ -149,42 +118,6 @@ form button:focus{
     border-radius:10px;border:1px solid #547a27;
 }
 
-footer{
-    height: 30px;
-    width:100%;
-    background-color: #c4c4c4;
-    display: flex;
-    justify-content:space-around;
-    position: fixed;
-    padding: 5px ;
-    height: 35px;
-    bottom: 0;
-    
-}
-
-footer  p{
-    text-align: center;
-    color:#505a5f
-}
-
-footer  i{
-    text-align: center;
-    margin-left: 25px;;
-    font-size: 16px;
-    color:#263238;
-}
-.fa-envelope:before {
-    margin-right: 6px;
-}
-.fa-instagram-square:before {
-    margin-right: 6px;
-}
-.fa-twitter-square:before {
-    margin-right: 6px;
-}
-.fa-facebook:before {
-    margin-right: 6px;
-}
 
 @media (max-width: 700px) {
     img.login_image {
